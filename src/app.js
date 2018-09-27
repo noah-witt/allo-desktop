@@ -30,7 +30,7 @@ androidMessagesWebview.addEventListener('did-start-loading', () => {
       return callback(false); // Prevent the webview's notification from coming through (we roll our own)
     }
 
-    if (!url.startsWith('https://messages.android.com')) {
+    if (!url.startsWith('https://allo.google.com/web')) {
       return callback(false); // Deny
     }
   });

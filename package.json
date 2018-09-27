@@ -1,21 +1,21 @@
 {
-  "name": "android-messages-desktop",
-  "productName": "Android Messages",
-  "description": "Messages for web, as a desktop app",
-  "version": "0.7.0",
-  "author": "Chris Knepper <chris82thekid@gmail.com>",
-  "copyright": "© 2018 Chris Knepper",
-  "homepage": "https://github.com/chrisknepper/android-messages-desktop",
+  "name": "allo-desktop",
+  "productName": "Allo",
+  "description": "Allo for web, as a desktop app",
+  "version": "0.0.1",
+  "author": "Noah Witt <noah@noah-witt.com>",
+  "copyright": "© 2018 Noah Witt, Derived from work by Chris Knepper",
+  "homepage": "https://github.com/noah-witt/allo-desktop",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chrisknepper/android-messages-desktop.git"
+    "url": "git+https://github.com/noah-witt/allo-desktop.git"
   },
   "bugs": {
-    "url": "https://github.com/chrisknepper/android-messages-desktop/issues"
+    "url": "https://github.com/noah-witt/allo-desktop/issues"
   },
   "main": "app/background.js",
   "build": {
-    "appId": "com.knepper.android-messages-desktop",
+    "appId": "com.noah-witt.allo-desktop",
     "files": [
       "app/**/*",
       "resources/**/*",

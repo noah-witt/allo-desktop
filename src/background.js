@@ -63,7 +63,7 @@ if (isSecondInstance) {
   if (IS_WINDOWS) {
     // Stupid, DUMB calls that have to be made to let notifications come through on Windows (only Windows 10?)
     // See: https://github.com/electron/electron/issues/10864#issuecomment-382519150
-    app.setAppUserModelId('com.knepper.android-messages-desktop');
+    app.setAppUserModelId('com.noah-witt.allo-desktop');
     app.setAsDefaultProtocolClient('android-messages-desktop');
   }
 
@@ -127,7 +127,7 @@ if (isSecondInstance) {
     trayManager.startIfEnabled();
 
     app.mainWindow = mainWindow; // Quick and dirty way for renderer process to access mainWindow for communication
-    
+
     mainWindow.on('focus', () => {
       if (IS_MAC) {
         state.unreadNotificationCount = 0;

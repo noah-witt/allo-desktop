@@ -1,6 +1,6 @@
 ## WIP. WILL NOT WORK
 
-#To Do
+# To Do
   - [x] Load Allo
   - [ ] Notifications
   - [ ] Icons

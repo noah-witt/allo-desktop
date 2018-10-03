@@ -64,7 +64,7 @@ if (isSecondInstance) {
     // Stupid, DUMB calls that have to be made to let notifications come through on Windows (only Windows 10?)
     // See: https://github.com/electron/electron/issues/10864#issuecomment-382519150
     app.setAppUserModelId('com.noah-witt.allo-desktop');
-    app.setAsDefaultProtocolClient('android-messages-desktop');
+    app.setAsDefaultProtocolClient('allo-desktop');
   }
 
   app.on('ready', () => {

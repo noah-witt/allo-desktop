@@ -71,7 +71,7 @@ const popupContextMenu = (event) => {
             // Leaving the URL root results in the file extension being truncated.
             // The resulting filename from this also appears to be consistent with
             // saving the image via dragging or the Chrome context menu...winning!
-            link.download = event.target.src.replace('blob:https://messages.android.com/', '');
+            link.download = event.target.src.replace('blob:https://allo.google.com/web/', '');
             document.body.appendChild(link);
             link.click();
             document.body.removeChild(link);
